@@ -1,3 +1,4 @@
+//Task 3
 var library=[
    { 
     author:'Bill Gates',
@@ -15,3 +16,6 @@ var library=[
     readingstatus:false
 }
 ]
+
+const readingStatus=library.map(obj=>obj.readingstatus);
+console.log(readingStatus);
